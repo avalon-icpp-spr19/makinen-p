@@ -65,49 +65,21 @@ cout << JDN;
 }
 */
 /* Упражнение 4
-int main()
-{
-setlocale(0, "");
-int sec_given, sec, hr, min;
+int main() {
+	int time;
 
-cin >> sec_given;
+	cin >> time;
+	cout << time / 3600 % 24 << ":";
+	cout << time % 3600 / 60 / 10 << time % 3600 / 60 % 10 << ":";
+	cout << time % 60 / 10 << time % 60 % 10;
 
-hr = sec_given / 3600;
-min = sec_given / 60 - hr * 60;
-sec = sec_given - hr * 3600 - min * 60;
-
-cout << hr << ":";
-
-if (min < 10)
-{
-cout << "0" << min << ":";
-}
-else
-{
-cout << min << ":";
-}
-
-if (sec < 10)
-{
-cout << "0" << sec;
-}
-else
-{
-cout << sec;
-}
 }
 */
 /* Упражнение 5
-int main()
-{
-setlocale(0, "");
-int N;
-cin >> N;
-N += 1;
-while (N % 2 != 0)
-{
-N += 1;
-}
-cout << N << endl;
+int main() {
+	int N;
+
+	cin >> N;
+	cout << N / 2 * 2 + 2;
 }
 */
