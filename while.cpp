@@ -3,6 +3,47 @@
 
 using namespace std;
 
+//ex.1
+
+//int main()
+//{
+//	int num = 1;
+//	int max, min;
+//
+//	max = 999999;
+//	min = 0;
+//
+//	while (num != 0)
+//	{
+//		cin >> num;
+//		min = (num < min) ? num : min;
+//		max = (num > max) ? num : max;
+//	}
+//
+//	cout << min << ";" << max << endl;
+//}
+
+//ex.2
+
+//int main()
+//{
+//	int S = 0;
+//	int num = 1;
+//	int max = 0;
+//	while (num != 0)
+//	{
+//		cin >> num;
+//
+//		S = (num > max) ? 0 : S;
+//		max = (num > max) ? num : max;
+//		S = (num == max) ? ++S : S;
+//	}
+//	cout << S << endl;
+//}
+
+//ex.3
+
+
 
 //ex.4
 
