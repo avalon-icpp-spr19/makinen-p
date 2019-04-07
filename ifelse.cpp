@@ -48,9 +48,12 @@ using namespace std;
 //Упражение 3
 
 //int main() {
-//	bool enemyInFront; cin >> enemyInFront;
-//	bool isBoss; cin >> isBoss;
-//	int robotHealth; cin >> robotHealth;
+//	bool enemyInFront; 
+//	cin >> enemyInFront;
+//	bool isBoss; 
+//	cin >> isBoss;
+//	int robotHealth; 
+//	cin >> robotHealth;
 //	bool shouldFire = true;
 //	if (enemyInFront | (enemyInFront && robotHealth > 100 && isBoss))
 //	{
