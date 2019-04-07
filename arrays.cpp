@@ -172,3 +172,26 @@ cout << data3[i] << ";";
 
 }
 */
+//Упражнение 4
+//
+//int main() {
+//	char abc[100];
+//	char All_letters[26] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
+//	'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+//
+//	for (int i = 0; i < 100; ++i) abc[i] = GetRandomValue('a', 'z');
+//	for (int i = 0; i < 100; ++i) cout << abc[i];
+//
+//	cout << endl;
+//
+//	for (int i = 0; i < 26; ++i)
+//	{
+//		cout << All_letters[i] << " | ";
+//		for (int j = 0; j < 100; ++j)
+//		{
+//			if (abc[j] == All_letters[i]) cout << "*";
+//		}
+//		cout << endl;
+//	}
+//	cout << endl;
+//}
