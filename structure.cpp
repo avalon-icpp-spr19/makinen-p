@@ -102,3 +102,30 @@ int main()
 	}
 
 }
+
+
+//Задание №4
+
+int main()
+{
+	Point massiiv[20];
+
+	for (int i; i < 20; ++i)
+	{
+		massiiv[i].x = GetRandomValue(0, 100);
+		massiiv[i].y = GetRandomValue(0, 100);
+	}
+
+	int X_min, Y_min;
+	X_min = massiiv[0].x;
+
+	for (int i; i < 20; ++i)
+	{
+		if (massiiv[i].x < X_min)
+		{
+			X_min = massiiv[i].x;
+			Y_min = massiiv[i].y;
+		}
+	}
+
+	cout << X_min << "; " << Y_min;
