@@ -1,5 +1,3 @@
-#include <ctime>
-#include <cstdlib>
 #include <iostream>
 #include "Extention.hpp"
 
